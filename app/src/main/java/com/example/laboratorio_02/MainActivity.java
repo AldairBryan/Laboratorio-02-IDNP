@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         Button listarEstudiantes=findViewById(R.id.buttonListar);
 
         ArrayList<Estudiante> listaEstudiantes= new ArrayList<Estudiante>();
-
         registrarEstudiante.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -42,13 +41,16 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     Log.d("INFO", "Falta completar campos");
                 }
+            }
+        });
 
-
-
+        listarEstudiantes.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Log.d("INFO",listaEstudiantes.toString());
             }
         });
     }
-
     public static boolean comprobarCampos(String aP,String aM,String nom,String fech,String cod,String carr){
         boolean vacio=false;
         vacio= aP.isEmpty() || aM.isEmpty() || nom.isEmpty() || fech.isEmpty() || cod.isEmpty() || carr.isEmpty();

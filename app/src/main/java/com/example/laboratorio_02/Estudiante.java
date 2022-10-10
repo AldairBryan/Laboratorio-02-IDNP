@@ -4,12 +4,12 @@ public class Estudiante {
     public String nombre,apellidoP,apellidoM,fechaN,carrera,colegio;
 
     public Estudiante(String nombre,String apellidoM,String apellidoP, String fechaN, String carrera, String colegio){
-        nombre=nombre;
-        apellidoM=apellidoM;
-        apellidoP=apellidoP;
-        fechaN=fechaN;
-        carrera=carrera;
-        colegio=colegio;
+        this.nombre=nombre;
+        this.apellidoM=apellidoM;
+        this.apellidoP=apellidoP;
+        this.fechaN=fechaN;
+        this.carrera=carrera;
+        this.colegio=colegio;
         System.out.println("Registrado");
     }
 
