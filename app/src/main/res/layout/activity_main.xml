@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:text="Apellido Paterno:"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="111dp" />
+        tools:layout_editor_absoluteY="111dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
@@ -22,7 +23,8 @@
         android:layout_height="wrap_content"
         android:text="Nombres:"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="264dp" />
+        tools:layout_editor_absoluteY="264dp"
+        tools:ignore="MissingConstraints"/>
 
     <TextView
         android:id="@+id/textView7"
@@ -35,7 +37,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="40dp" />
+        tools:layout_editor_absoluteY="40dp"
+        tools:ignore="MissingConstraints"/>
 
     <EditText
         android:id="@+id/inputApellidoP"
@@ -44,7 +47,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="93dp" />
+        tools:layout_editor_absoluteY="93dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/inputApellidoM"
@@ -53,7 +57,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="167dp" />
+        tools:layout_editor_absoluteY="167dp"
+        tools:ignore="MissingConstraints"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -61,7 +66,8 @@
         android:layout_height="wrap_content"
         android:text="Apellido Materno:"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="187dp" />
+        tools:layout_editor_absoluteY="187dp"
+        tools:ignore="MissingConstraints"/>
 
     <EditText
         android:id="@+id/inputNombres"
@@ -70,7 +76,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="246dp" />
+        tools:layout_editor_absoluteY="246dp"
+        tools:ignore="MissingConstraints"/>
 
     <EditText
         android:id="@+id/inputFechaNacimiento"
@@ -79,7 +86,8 @@
         android:ems="10"
         android:inputType="date"
         tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="344dp" />
+        tools:layout_editor_absoluteY="344dp"
+        tools:ignore="MissingConstraints"/>
 
     <TextView
         android:id="@+id/textView4"
@@ -87,7 +95,8 @@
         android:layout_height="wrap_content"
         android:text="Fecha de Nacimiento:"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="357dp" />
+        tools:layout_editor_absoluteY="357dp"
+        tools:ignore="MissingConstraints"/>
 
     <EditText
         android:id="@+id/inputCodigoP"
@@ -96,7 +105,8 @@
         android:ems="10"
         android:inputType="number"
         tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="439dp" />
+        tools:layout_editor_absoluteY="439dp"
+        tools:ignore="MissingConstraints"/>
 
     <TextView
         android:id="@+id/textView5"
@@ -104,14 +114,16 @@
         android:layout_height="wrap_content"
         android:text="Colegio de Procedencia:"
         tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="456dp" />
+        tools:layout_editor_absoluteY="456dp"
+        tools:ignore="MissingConstraints"/>
 
     <Spinner
         android:id="@+id/inputCarrera"
         android:layout_width="150dp"
         android:layout_height="34dp"
         tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="527dp" />
+        tools:layout_editor_absoluteY="527dp"
+        tools:ignore="MissingConstraints"/>
 
     <TextView
         android:id="@+id/textView6"
@@ -119,7 +131,8 @@
         android:layout_height="wrap_content"
         android:text="Carrera a la que postula"
         tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="536dp" />
+        tools:layout_editor_absoluteY="536dp"
+        tools:ignore="MissingConstraints"/>
 
     <Button
         android:id="@+id/buttonRegistrar"
@@ -127,7 +140,8 @@
         android:layout_height="wrap_content"
         android:text="Registrar Estudiante"
         tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="601dp" />
+        tools:layout_editor_absoluteY="601dp"
+        tools:ignore="MissingConstraints"/>
 
     <Button
         android:id="@+id/buttonListar"
@@ -135,6 +149,7 @@
         android:layout_height="wrap_content"
         android:text="Listar Estudiantes"
         tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="667dp" />
+        tools:layout_editor_absoluteY="667dp"
+        tools:ignore="MissingConstraints"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
