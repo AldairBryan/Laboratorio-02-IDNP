@@ -63,8 +63,60 @@
         android:textSize="23sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="40dp" />
+
+    <EditText
+        android:id="@+id/inputApellidoP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <EditText
+        android:id="@+id/inputApellidoM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <EditText
+        android:id="@+id/inputNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <EditText
+        android:id="@+id/inputFechaNacimiento"
+        android:layout_width="152dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <EditText
+        android:id="@+id/inputCodigoP"
+        android:layout_width="148dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Spinner
+        android:id="@+id/inputCarrera"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="577dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
