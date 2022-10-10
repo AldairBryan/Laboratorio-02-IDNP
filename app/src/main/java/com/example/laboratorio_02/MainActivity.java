@@ -29,15 +29,27 @@ public class MainActivity extends AppCompatActivity {
         registrarEstudiante.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
+                //Obtenemos
                 String apellidoP = apellidoPaterno.getText().toString();
                 String apellidoM =apellidoMaterno.getText().toString();
                 String nombre =nombres.getText().toString();
                 String fechaN =fechaNacimiento.getText().toString();
                 String codigoP =codigoProcedencia.getText().toString();
                 String carreraP =carreraPostular.getText().toString();
+                //Comprueba los campos
                 if(!comprobarCampos(apellidoP,apellidoM,nombre,fechaN,codigoP,carreraP)){
+                    //Registra
                     listaEstudiantes.add(new Estudiante(nombre,apellidoM,apellidoP,fechaN,carreraP,codigoP));
+                    //Muestra
                     Log.d("INFO", "Estudiante  Registrado");
+                    Log.d("INFO",listaEstudiantes.get(listaEstudiantes.size()-1).toString());
+                    //Limpia los campos
+                    apellidoPaterno.setText("");
+                    apellidoMaterno.setText("");
+                    nombres.setText("");
+                    fechaNacimiento.setText("");
+                    codigoProcedencia.setText("");
+                    carreraPostular.setText("");
                 } else {
                     Log.d("INFO", "Falta completar campos");
                 }
